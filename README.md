@@ -3,7 +3,7 @@ Buliding Reinforcement Learning Models
 
 ---
 
-- Model list-
+< Model list >
 1. Policy Iteration
 2. Value Iteration
 3. SARSA
