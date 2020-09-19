@@ -18,3 +18,4 @@ RL 논문 리뷰와 파이토치를 이용해 구현한 모델 결과물
 
 ## Reference
 1. https://github.com/rlcode/reinforcement-learning-kr-v2
+2. https://github.com/jmichaux/dqn-pytorch/
