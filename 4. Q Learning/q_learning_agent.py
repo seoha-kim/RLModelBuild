@@ -54,4 +54,4 @@ if __name__ == "__main__":
             if done:
                 break
 
-# https://github.com/rlcode/reinforcement-learning-kr-v2 참고
+# https://github.com/rlcode/reinforcement-learning-kr-v2

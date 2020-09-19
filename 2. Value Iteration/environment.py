@@ -259,4 +259,4 @@ class Env:
     def get_all_states(self):
         return self.all_state
 
-# https://github.com/rlcode/reinforcement-learning-kr-v2 참고
+# https://github.com/rlcode/reinforcement-learning-kr-v2

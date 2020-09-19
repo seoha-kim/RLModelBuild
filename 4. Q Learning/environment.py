@@ -125,4 +125,4 @@ class Env(tk.Tk):
         time.sleep(0.03)
         self.update()
 
-# https://github.com/rlcode/reinforcement-learning-kr-v2 참고
+# https://github.com/rlcode/reinforcement-learning-kr-v2

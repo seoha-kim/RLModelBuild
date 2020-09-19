@@ -50,4 +50,4 @@ if __name__ == '__main__':
     grid_world = GraphicDisplay(value_iteration)
     grid_world.mainloop()
 
-# https://github.com/rlcode/reinforcement-learning-kr-v2 참고
+# https://github.com/rlcode/reinforcement-learning-kr-v2
