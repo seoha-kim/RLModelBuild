@@ -1,7 +1,6 @@
-## ReinforcementLearning
+# ReinforcementLearning
 RL 논문 리뷰와 파이토치를 이용해 구현한 모델 결과물.
 
----
 
 - <b>Model list</b>
 
