@@ -1,5 +1,6 @@
 ## ReinforcementLearning
-RL 논문 리뷰와 파이토치를 이용해 구현한 모델 결과물
+- 강화학습 논문 리뷰
+- 파이토치를 이용해 구현된 강화학습 모델 코드 리뷰
 
 
 ## Model list
