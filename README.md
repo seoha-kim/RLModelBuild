@@ -1,5 +1,6 @@
 ## ReinforcementLearning
-RL 논문 리뷰와 파이토치를 이용해 구현한 모델 결과물
+- 강화학습 논문 리뷰
+- 파이토치를 이용해 구현된 강화학습 모델 코드 리뷰
 
 
 ## Model list
@@ -18,3 +19,4 @@ RL 논문 리뷰와 파이토치를 이용해 구현한 모델 결과물
 
 ## Reference
 1. https://github.com/rlcode/reinforcement-learning-kr-v2
+2. https://github.com/jmichaux/dqn-pytorch/
