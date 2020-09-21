@@ -30,3 +30,5 @@ class ReplayBuffer(object):
         new_states = self.new_state_memory[batch]
         terminal = self.terminal_memory[batch]
         return states, actions, rewards, new_states, terminal
+
+    # https://github.com/user432/DeepRL-in-PyTorch

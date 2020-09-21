@@ -102,3 +102,5 @@ def make_env(env_name, shape=(84,84,1), skip=4):
     env = PreprocessFrame(shape, env)
     env = StackFrames(env, skip)
     return env
+
+# https://github.com/user432/DeepRL-in-PyTorch
