@@ -13,7 +13,7 @@ class DeepQNetwork(nn.Module):
 
         self.conv1 = nn.Conv2d(input_dims[0], 32, 8, stride=4)
         self.conv2 = nn.Conv2d(32, 64, 4, stride=2)
-        self.conv3 = nn.Conv2d(64, 64, 2, stride=1)
+        self.conv3 = nn.Conv2d(64, 64, 3, stride=1)
 
         fc_input_dims = self.calculate_conv_output_dims(input_dims)
 
@@ -34,13 +34,14 @@ class DeepQNetwork(nn.Module):
         return int(np.prod(dims.size()))
 
     def forward(self, state):
-        conv1 = F.relu(self.state)
+        conv1 = F.relu(self.conv1(state))
         conv2 = F.relu(self.conv2(conv1))
         conv3 = F.relu(self.conv3(conv2))
         conv_state = conv3.view(conv3.size()[0], -1)
 
         flat1 = F.relu(self.fc1(conv_state))
         actions = self.fc2(flat1)
+
         return actions
 
     def save_checkpoint(self):
