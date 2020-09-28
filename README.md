@@ -12,10 +12,6 @@
 6. Double DQN
 7. A2C
 8. A3C
-9. TRPO
-10. TD3
-11. PPO
-12. SAC
 
 ## Reference
 1. https://github.com/rlcode/reinforcement-learning-kr-v2
