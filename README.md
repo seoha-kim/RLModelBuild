@@ -9,7 +9,7 @@
 3. SARSA
 4. Q-learning
 5. DQN
-6. DDQN
+6. Double DQN
 7. A2C
 8. A3C
 9. TRPO
