@@ -122,7 +122,7 @@ if __name__ == "__main__":
     plt.plot(res)
     plt.ylabel('Moving average ep reward')
     plt.xlabel('Step')
-    plt.show()
     plt.savefig('continuous a3c.png')
+    plt.show()
 
 # https://github.com/MorvanZhou/pytorch-A3C/
