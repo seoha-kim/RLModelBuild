@@ -1,4 +1,4 @@
-## ReinforcementLearning
+## RL Model Build Study
 - 강화학습 논문 리뷰
 - 파이토치를 이용해 구현된 강화학습 모델 코드 리뷰
 
